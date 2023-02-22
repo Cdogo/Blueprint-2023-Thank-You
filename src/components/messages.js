@@ -39,7 +39,7 @@ export const messages = [
         message: `Thank you hackMIT for giving us this opportunity the time was surreal and honestly hard to believe it wasn't a dream. I hope you all spend the rest of your holiday relaxing because you all deserve it` ,
         author: 'John',
         delay: 6,
-        xPos: 70
+        xPos: 50
     },
     {
         message: `Thank you hackMIT for giving us this opportunity the time was surreal and honestly hard to believe it wasn't a dream. I hope you all spend the rest of your holiday relaxing because you all deserve it` ,

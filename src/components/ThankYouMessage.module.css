@@ -1,7 +1,6 @@
 .message{
     position: absolute;
-    animation: name duration timing-function delay iteration-count direction fill-mode;
-    animation: float 5s ease-out;
+    animation: float 6s ease-out;
 }
 
 @keyframes float{
@@ -19,4 +18,4 @@
         opacity: 0;
         bottom: 90%;
     }
-}
+};

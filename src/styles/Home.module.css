@@ -1,35 +1,39 @@
 #message{
-  @apply text-5xl h-full max-w-screen-md
+  @apply text-5xl p-5 max-w-screen-md;
 }
 #message::after{
   content:'And for that we would like to say thank you';
-
   animation: ThankYouStart 30s ease-in;
 }
 @keyframes ThankYouStart{
   0%{
     content:'I have 2 words for the blueprint organizers';
     opacity: 0;
-    transform: scale(10%);
   }
-  5%{
+  3%{
     opacity: 1;
   }
-  10%{
+  7%{
     opacity: 0;
   }
-  15%{
+  8%{
+    opacity: 0;
+  }
+  12%{
     content:'Thank you';
     opacity: 1;
   }
-  20%{
+  17%{
     opacity: 0;
   }
-  23%{
+  18%{
+    opacity: 0;
+  }
+  20%{
     content:'Thank you for organizing such a fun event!';
     opacity: 1;
   }
-  24%{
+  23%{
     opacity: 0;
   }
   25%{
@@ -61,5 +65,21 @@
   100%{
     content:'And for that we would like to say thank you';
     opacity:1;
+  }
+}
+#credit{
+  display: block;
+  animation: DisplayCredit 30s ease-in;
+}
+@keyframes DisplayCredit {
+  0%{
+    opacity: 0;
+  }
+  96%{
+    display: block;
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
   }
 }
