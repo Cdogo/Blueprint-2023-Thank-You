@@ -1,0 +1,22 @@
+.message{
+    position: absolute;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: float 5s ease-out;
+}
+
+@keyframes float{
+    0%{
+        bottom: 0;
+        opacity:0;
+    }
+    20%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        bottom: 90%;
+    }
+}
