@@ -27,7 +27,7 @@ export default function Home() {
     <>
       <Head>
         <title>Thank You!</title>
-        <meta name="description" content="A special message to the Blueprint 2023 organizers" />
+        <meta name="description" content="A special message to the Blueprint 2023 organizers. P.S. Please watch on a laptop :)" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

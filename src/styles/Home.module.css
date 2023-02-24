@@ -1,5 +1,5 @@
 #message{
-  @apply text-5xl p-5 max-w-screen-md;
+  @apply text-5xl p-5 m-auto mb-0;
 }
 #message::after{
   content:'And for that we would like to say thank you';
