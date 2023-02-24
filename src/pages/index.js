@@ -39,10 +39,10 @@ export default function Home() {
           </h2>
         </div>
         <div className = {`${styles.allmessages} w-fit flex justify-center items-center p-3 flex-wrap h-[50vh] max-w-screen-xl m-auto overflow-auto gap-3`}>
-          {messages && messages.map((msg) => {return(<ThankYouMessage1 {...msg}/>)})}
+          {messages && messages.map((msg, i) => {return(<ThankYouMessage1 key = {i} {...msg}/>)})}
         </div>
       </main>
-      {messages && messages.map((msg) => {return(<ThankYouMessage {...msg}/>)})}
+      {messages && messages.map((msg, i) => {return(<ThankYouMessage key = {i} {...msg}/>)})}
     </>
   )
 }
