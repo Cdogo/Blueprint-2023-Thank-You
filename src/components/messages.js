@@ -6,6 +6,10 @@ export const messages = [
         xPos: 5
     },
     {
+        message: `Thanks organisers! it really means a lot that you spent so much time on this event for all of us! it showed in the quality of all the events, speakers, and staff themselves. I know this was your first year back in person, but you all knocked it out of the park! ` ,
+        author: '@vicken',
+    },
+    {
         message: `As someone who's been "professionally" programming for almost three years, Blueprint allowed me to push myself out of my comfort zone by learning a new skill during the learnathon and walk away with a dope project and new set of colleagues. Thank you so much for organizing it!` ,
         author: '@supersonicdiscord1',
         delay: 3,
