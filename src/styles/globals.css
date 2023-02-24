@@ -11,3 +11,15 @@
 *{
   overflow: hidden;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(209, 213, 219);
+  border-radius: 9999px; 
+}
